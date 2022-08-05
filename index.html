@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Members Only!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <section class="hero is-fullheight has-background-black">
+      <div class="hero-body">
+        <div id="main-body" class="container">
+          <p class="center has-text-light"> You have one minute to guess all the codes. The timer starts as soon as you press the button below </p>
+          <button id="start-button" class=" button is-danger is-medium container center"> Start! </button>
+          <figure class="image center">
+            <img
+              id="main"
+              src="https://images.mysecuritysign.com/img/lg/S/members-only-sign-se-2438_showcase-burrev.png"
+              alt="Members Only"
+            />
+          </figure>
+          <div id="clue-1" class="container">
+            <p class="center has-text-light">
+              <b>What</b>&nbsp;is the password
+            </p>
+          </div>
+          <div id="button" class="container center hidden">
+            <button class="button">
+              <img
+                class="image small"
+                src="https://www.kindpng.com/picc/m/72-729857_golden-key-png-image-with-transparent-background-golden.png"
+                alt="key"
+              />
+            </button>
+          </div>
+          <div id="clue-2" class="container hidden">
+            <p class="center has-text-light">
+              You need the missing digits. Hint: police
+            </p>
+          </div>
+          <div id="clue-3" class="container hidden">
+            <p class="center has-text-light">
+              Try typing out "Supercalifragilisticexpialidocious" with no mistakes!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
